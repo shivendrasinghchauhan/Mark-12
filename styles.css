@@ -26,13 +26,14 @@ h1{
 }
 #voice{
     display: none;
+    width: 200px;
     
 }
 #btn{
     margin-top: 15px;
     display: flex;
 
-    border-radius: 25%;
+    border-radius: 49%;
     padding: 5px;
 }
 #btn:hover{
@@ -43,7 +44,7 @@ h1{
 
 @media (max-width: 768px) { /* Tablet view */
     #logo {
-        width: 400px; /* Adjust logo size for smaller screens */
+        width: 300px; /* Adjust logo size for smaller screens */
     }
     body {
         padding: 10px;
@@ -56,22 +57,33 @@ h1{
         
         padding: 5px;
     }
+    #voice{
+        
+        width: 150px;
+        
+    }
 }
 
 @media (max-width: 480px) { /* Mobile view */
     #logo {
-        width: 400px; /* Further adjust logo size */
+        width: 200px; /* Further adjust logo size */
     }
     h1 {
         font-size: 1.2rem; /* Smaller heading size */
     }
     #btn {
-        margin-top: 20px;
+        margin-top: 10px;
     
-        border-radius: 25%; 
+        border-radius: 50%; /* Keep circular button */
         padding: 3px;
     }
     #btn:hover {
         background-color: lightgray;
     }
+    #voice{
+        margin-top: 40px;
+        width: 100px;
+        
+    }
+
 }
