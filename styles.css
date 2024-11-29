@@ -32,7 +32,7 @@ h1{
     margin-top: 15px;
     display: flex;
 
-    border-radius: 35%;
+    border-radius: 25%;
     padding: 5px;
 }
 #btn:hover{
@@ -43,7 +43,7 @@ h1{
 
 @media (max-width: 768px) { /* Tablet view */
     #logo {
-        width: 300px; /* Adjust logo size for smaller screens */
+        width: 400px; /* Adjust logo size for smaller screens */
     }
     body {
         padding: 10px;
@@ -68,7 +68,7 @@ h1{
     #btn {
         margin-top: 20px;
     
-        border-radius: 35%; 
+        border-radius: 25%; 
         padding: 3px;
     }
     #btn:hover {
