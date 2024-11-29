@@ -48,7 +48,7 @@ function takeCommand(message){
     }
     else if(message.includes("who are you")){
         speak("i am virtual assistant ,created by Shivendra Sir")
-
+}
 else if(message.includes("who is veraj babu")){
         speak("एक पूरी स्टोरी लिखो कि विराज बाबु सम्राज वो गई विराज, विराज बाबु राजा, महाराज वो गई राजा, और पूरी प्रित्वी तो उनके राज है।")
 
