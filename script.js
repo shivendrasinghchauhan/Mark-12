@@ -48,6 +48,10 @@ function takeCommand(message){
     }
     else if(message.includes("who are you")){
         speak("i am virtual assistant ,created by Shivendra Sir")
+    }
+        else if(message.includes("who is viraj babu")){
+            speak(" Viraj Babu: The Strongest Man A long time ago, in a small village named Suryagarh, a child was born who astonished everyone. People said this was no ordinary child. His name was Viraj Babu. From the moment he was born, he began to create his own identity. When he cried, the branches of trees bent low, and when he smiled, the entire village lit up with radiance As Viraj Babu grew stories of his miracles spread far and wide. It was said that with just a glance, he could stop the flow of a river, and with a mere gesture, he could summon rain. Yet, Viraj Babu was never arrogant. He always stayed close to his mother, praising her cooking.The Greatest Challenge for Viraj Babu                One day, the king of Kalgadh, Timurtan, announced across the country that anyone who believed they were stronger than him could challenge him. However, if they lost, they would have to surrender their strength to the king. People were terrified because Timurtan possessed a magical sword that no one could defeat.When this news reached Suryagarh, Viraj Babu told his ")
+        
     }else if(message.includes("open youtube")){
         speak("opening youtube...")
         window.open("https://youtube.com/","_blank")
