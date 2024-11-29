@@ -60,13 +60,13 @@ h1{
 
 @media (max-width: 480px) { /* Mobile view */
     #logo {
-        width: 200px; /* Further adjust logo size */
+        width: 300px; /* Further adjust logo size */
     }
     h1 {
         font-size: 1.2rem; /* Smaller heading size */
     }
     #btn {
-        margin-top: 10px;
+        margin-top: 20px;
     
         border-radius: 35%; 
         padding: 3px;
