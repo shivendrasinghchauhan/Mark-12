@@ -68,7 +68,7 @@ h1{
     #btn {
         margin-top: 10px;
     
-        border-radius: 50%; /* Keep circular button */
+        border-radius: 50%; 
         padding: 3px;
     }
     #btn:hover {
