@@ -32,7 +32,7 @@ h1{
     margin-top: 15px;
     display: flex;
 
-    border-radius: 49%;
+    border-radius: 35%;
     padding: 5px;
 }
 #btn:hover{
@@ -68,7 +68,7 @@ h1{
     #btn {
         margin-top: 10px;
     
-        border-radius: 50%; 
+        border-radius: 35%; 
         padding: 3px;
     }
     #btn:hover {
