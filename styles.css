@@ -1,56 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
+    display: flex;
     width: 100%;
     height: 100%;
-    background-color: black;
-    display: flex;
+    background-color: white;
     align-items: center;
     justify-content: center;
-    gap:30px;
-    flex-direction: column;
+    flex-direction: column ;
+    
 }
 #logo{
-    width: 20vw;
+    width: 500px;
+    align-items: center;
+    display: flex;
+    align-content: center;
 }
 h1{
-    color: aliceblue;
-    font-family: "Protest Guerrilla", sans-serif;
-}
-#name{
-    color:rgb(212, 43, 122);
-    font-size: 45px;
-}
-#va{
-    color:rgb(43, 206, 212);
-    font-size: 45px; 
+    font-family: "M PLUS Rounded 1c", sans-serif;
+
 }
 #voice{
-    width: 100px;
     display: none;
-   
+    
 }
 #btn{
-width: 30%;
-background: linear-gradient(to right,rgb(21, 145, 207),rgb(201, 41, 116));
-padding: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 10px;
-font-size: 20px;
-border-radius: 20px;
-color: white;
-box-shadow: 2px 2px 10px rgb(21, 145, 207),2px 2px 10px rgb(201, 41, 116);
-border: none;
-transition: all 0.5s;
-cursor: pointer;
+    margin-top: 15px;
+    display: flex;
+
+    border-radius: 49%;
+    padding: 5px;
 }
 #btn:hover{
-    box-shadow: 2px 2px 20px rgb(21, 145, 207),2px 2px 20px rgb(201, 41, 116);
-    letter-spacing: 2px;
+    box-shadow: inset;
+    background-color: gray;
+    transition-duration: 0.6s;
+}
+
+@media (max-width: 768px) { /* Tablet view */
+    #logo {
+        width: 300px; /* Adjust logo size for smaller screens */
+    }
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5rem; /* Adjust heading size */
+        text-align: center;
+    }
+    #btn {
+        
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) { /* Mobile view */
+    #logo {
+        width: 200px; /* Further adjust logo size */
+    }
+    h1 {
+        font-size: 1.2rem; /* Smaller heading size */
+    }
+    #btn {
+        margin-top: 10px;
+    
+        border-radius: 50%; /* Keep circular button */
+        padding: 3px;
+    }
+    #btn:hover {
+        background-color: lightgray;
+    }
 }
